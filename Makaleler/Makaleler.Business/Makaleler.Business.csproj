@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Makaleler.DataAccess\Makaleler.DataAccess.csproj" />
+    <ProjectReference Include="..\Makaleler.Entities\Makaleler.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
