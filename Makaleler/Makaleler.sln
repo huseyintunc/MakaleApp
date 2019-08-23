@@ -3,19 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Makaleler.Core", "Makaleler.Core\Makaleler.Core.csproj", "{5CD31A48-9BFB-4DF0-86DB-DE9878E68087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Makaleler.Core", "Makaleler.Core\Makaleler.Core.csproj", "{5CD31A48-9BFB-4DF0-86DB-DE9878E68087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Makaleler.Business", "Makaleler.Business\Makaleler.Business.csproj", "{FE022953-435F-4AF2-9BDC-AFE4C82DCF49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Makaleler.Business", "Makaleler.Business\Makaleler.Business.csproj", "{FE022953-435F-4AF2-9BDC-AFE4C82DCF49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Makaleler.Entities", "Makaleler.Entities\Makaleler.Entities.csproj", "{3CE813D4-3A05-4C13-9066-650A09D4671F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Makaleler.Entities", "Makaleler.Entities\Makaleler.Entities.csproj", "{3CE813D4-3A05-4C13-9066-650A09D4671F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Makaleler.DataAccess", "Makaleler.DataAccess\Makaleler.DataAccess.csproj", "{D47A7A06-875F-45FE-A421-89F8580B05D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Makaleler.DataAccess", "Makaleler.DataAccess\Makaleler.DataAccess.csproj", "{D47A7A06-875F-45FE-A421-89F8580B05D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Makaleler.Rest", "Makaleler.Rest\Makaleler.Rest.csproj", "{ACB9ED36-F740-4E43-B976-9B12F7E55BE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Makaleler.Rest", "Makaleler.Rest\Makaleler.Rest.csproj", "{ACB9ED36-F740-4E43-B976-9B12F7E55BE4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{96594539-90A7-4BBA-BC2E-EB47C613E83A}"
 	ProjectSection(SolutionItems) = preProject
 		Notes.txt = Notes.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{49900979-8762-44FD-A3A7-6D5E5E43A698}"
+	ProjectSection(SolutionItems) = preProject
+		CreateDbScript.sql = CreateDbScript.sql
 	EndProjectSection
 EndProject
 Global
